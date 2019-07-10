@@ -5,7 +5,7 @@ class DigitalClicker extends React.Component {
     constructor() {
     super();
 
-    this.State() = {
+    this.state() = {
             timesClicked: 0
     };
 
