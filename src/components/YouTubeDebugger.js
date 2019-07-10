@@ -12,9 +12,9 @@ class YouTubeDebugger extends React.Component {
         settings: {
           birate: 8,
           video: {
-            resolution: '1080p' 
+            resolution: '1080p'
            }
-        } 
+        }
       };
   }
 
