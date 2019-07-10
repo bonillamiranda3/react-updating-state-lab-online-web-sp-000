@@ -4,7 +4,7 @@ import React from 'react';
 class DigitalClicker extends React.Component {
     constructor() {
     super();
-    this.state() = {
+    this.setState() = {
             timesClicked: 0
     };
 
