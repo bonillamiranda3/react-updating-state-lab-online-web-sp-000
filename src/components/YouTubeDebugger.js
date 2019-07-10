@@ -10,7 +10,7 @@ class YouTubeDebugger extends React.Component {
         errors: [],
         user: null,
         settings: {
-          birate: 8,
+          bitrate: 8,
           video: {
             resolution: '1080p'
            }
@@ -18,7 +18,7 @@ class YouTubeDebugger extends React.Component {
       };
   }
 
-    handleBirate = () => {
+    handleBitrate = () => {
       this.setState({
         settings: {
           ...this.state.settings,
